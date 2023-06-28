@@ -1,0 +1,212 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#header {
+    font-family: Poppins;
+    font-size: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+
+    text-decoration-line: underline;
+    color: #070F18;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#menu {
+    text-align: right;
+    margin-top: 49px;
+}
+
+#menu a:hover {
+    color: #1F7CFF;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #070F18;
+}
+
+a {
+    color: black;
+}
+
+
+#buttonText {
+    background: #1F7CFF;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+#buttonText:hover {
+    background-color: #FFFFFF;
+    color: #1F7CFF;
+    border: solid 1px #1F7CFF;
+    transition: 0.5s;
+
+}
+
+#Text p {
+    margin-top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #575455;
+}
+
+#Text h1 {
+
+    margin-top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: #000000;
+}
+
+#Text h3 {
+    margin-top: 210px;
+    font-family: Poppins;
+    font-size: 30;
+    color: #000000;
+}
+
+#text span {
+    color: #F75C4E;
+}
+
+
+#Img {
+    /*margem da esqueda */
+    margin-left: 42px;
+    margin-top: 100px;
+}
+
+#Img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.logo {
+    text-align: center;
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+#language {
+    margin-top: 150px;
+    margin: 80px;
+    margin-bottom: 50px;
+}
+
+#myLanguage {
+    margin: 10px 0 10px 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+#language h3 {
+    margin: 40px 0 40px 0;
+}
+
+/* conheça */
+#portfolioTitle h2.textRed {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 24px;
+    text-align: left;
+    color: #F75C4E;
+}
+
+/* Meus Projetos */
+#portfolioTitle h1.textBlack {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: left;
+    margin-top: 0;
+    color: #000000;
+}
+
+/* Margem do Titulo "Conheça os meus Projetos" */
+#portfolioTitle {
+    margin-top: 150px;
+}
+
+/*Imagens Portfólio */
+.portfolioImg img {
+    width: 100%;
+}
+
+.portfolioImg {
+    padding: 20px;
+    margin-top: 150px;
+}
+
+/* Roda pé da Página */
+.footer {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer img {
+    width: 60px;
+    height: 60px;
+}
+
+.footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin-top: 2px;
+}
